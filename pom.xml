@@ -13,6 +13,17 @@
         <module>simple-server</module>
         <module>simple-schema</module>
     </modules>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.servicecomb</groupId>
+                <artifactId>java-chassis-dependencies</artifactId>
+                <version>0.1.0-m2-SNAPSHOT</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <build>
         <plugins>
             <plugin>
