@@ -37,8 +37,7 @@ public class SimpleClient {
 
     public static void main(String[] args) throws Exception {
         init();
-        //System.out.println(hello.sayHi("Java Chassis"));
-        //codeFirstClient.init("hello");
+        System.out.println(hello.sayHi("Java Chassis"));
         System.out.println("a: 1, b=2, result=" + compute.add(1, 2));
     }
 

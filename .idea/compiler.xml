@@ -14,10 +14,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo-simple" target="1.5" />
-      <module name="simple-client" target="1.5" />
-      <module name="simple-demo" target="1.5" />
-      <module name="simple-schema" target="1.5" />
-      <module name="simple-server" target="1.6" />
+      <module name="simple-client" target="1.8" />
+      <module name="simple-demo" target="1.8" />
+      <module name="simple-schema" target="1.8" />
+      <module name="simple-server" target="1.8" />
       <module name="simples-chema" target="1.5" />
       <module name="simpleschema" target="1.5" />
     </bytecodeTargetLevel>
