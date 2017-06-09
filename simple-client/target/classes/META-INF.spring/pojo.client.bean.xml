@@ -27,5 +27,7 @@
 	<cse:rpc-reference id="hello" microservice-name="hello"
 		schema-id="hello" ></cse:rpc-reference>
 
+	<bean class="io.servicecomb.demo.client.CodeFirstClient">
+	</bean>
 
 </beans>

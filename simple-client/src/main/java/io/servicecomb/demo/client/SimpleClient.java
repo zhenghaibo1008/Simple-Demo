@@ -16,6 +16,7 @@
 
 package io.servicecomb.demo.client;
 
+import io.servicecomb.demo.Compute;
 import io.servicecomb.demo.Hello;
 import io.servicecomb.foundation.common.utils.BeanUtils;
 import io.servicecomb.foundation.common.utils.Log4jUtils;
@@ -23,15 +24,22 @@ import io.servicecomb.foundation.common.utils.Log4jUtils;
 import io.servicecomb.provider.pojo.RpcReference;
 import org.springframework.stereotype.Component;
 
+
 @Component
 public class SimpleClient {
 
     @RpcReference(microserviceName = "hello", schemaId = "hello")
     private static Hello hello;
 
+
+    @RpcReference(microserviceName = "hello", schemaId = "codefirstcompute")
+    public static Compute compute;
+
     public static void main(String[] args) throws Exception {
         init();
-        System.out.print(hello.sayHi("Java Chassis"));
+        //System.out.println(hello.sayHi("Java Chassis"));
+        //codeFirstClient.init("hello");
+        System.out.println("a: 1, b=2, result=" + compute.add(1, 2));
     }
 
     public static void init() throws Exception {
