@@ -9,9 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>simple-server</artifactId>
-
-
+    <artifactId>jaxrs-client</artifactId>
 
     <dependencies>
         <dependency>
@@ -48,7 +46,11 @@
         </dependency>
         <dependency>
             <groupId>io.servicecomb</groupId>
-            <artifactId>provider-pojo</artifactId>
+            <artifactId>provider-jaxrs</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.servicecomb</groupId>
+            <artifactId>provider-springmvc</artifactId>
         </dependency>
         <dependency>
             <groupId>io.servicecomb.demo</groupId>

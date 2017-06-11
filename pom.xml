@@ -12,6 +12,10 @@
         <module>simple-client</module>
         <module>simple-server</module>
         <module>simple-schema</module>
+        <module>jaxrs-client</module>
+        <module>jaxrs-server</module>
+        <module>springmvc-client</module>
+        <module>springmvc-server</module>
     </modules>
     <dependencyManagement>
         <dependencies>
@@ -24,8 +28,10 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
     <build>
         <plugins>
+            <!-- 配置项目使用jdk1.8编译 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>

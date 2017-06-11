@@ -1,3 +1,7 @@
 simple-server/target
 simple-schema/target
 simple-client/target
+jaxrs-client/target
+jaxrs-server/target
+springmvc-client/target
+springmvc-server/target

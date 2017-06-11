@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/jaxrs-client/jaxrs-client.iml" filepath="$PROJECT_DIR$/jaxrs-client/jaxrs-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jaxrs-server/jaxrs-server.iml" filepath="$PROJECT_DIR$/jaxrs-server/jaxrs-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple-client/simple-client.iml" filepath="$PROJECT_DIR$/simple-client/simple-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple-demo.iml" filepath="$PROJECT_DIR$/simple-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple-schema/simple-schema.iml" filepath="$PROJECT_DIR$/simple-schema/simple-schema.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple-server/simple-server.iml" filepath="$PROJECT_DIR$/simple-server/simple-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-client/springmvc-client.iml" filepath="$PROJECT_DIR$/springmvc-client/springmvc-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc-server/springmvc-server.iml" filepath="$PROJECT_DIR$/springmvc-server/springmvc-server.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.servicecomb:provider-jaxrs:0.1.0-m2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/servicecomb/provider-jaxrs/0.1.0-m2-SNAPSHOT/provider-jaxrs-0.1.0-m2-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/servicecomb/provider-jaxrs/0.1.0-m2-SNAPSHOT/provider-jaxrs-0.1.0-m2-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/servicecomb/provider-jaxrs/0.1.0-m2-SNAPSHOT/provider-jaxrs-0.1.0-m2-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
